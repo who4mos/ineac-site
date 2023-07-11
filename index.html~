@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <h1><a href="#">X Seminário Internacional</a></h1>
+      
+      
+      <nav>
+
+	<input type="checkbox" class="toggle-menu">
+	<div class="hamburger"></div>
+	
+	<ul class="menu">
+	  <li><a href="#">Home</a></li>
+	  <li><a href="#">GTs</a></li>
+	  <li><a href="#">lancamentos de livro</a></li>
+	  <li><a href="#">Anais do Evento</a></li>
+	  <li><a href="#">Contato</a></li>
+	</ul>
+      </nav>
+      
+    </header>
+    
+    <main>
+
+      <section class="image-container">
+	<img alt="" src="https://www.ram2023.sinteseeventos.com.br/resources/content/ram2023/banner_1680540661_5_4_banner_ram1.jpg">
+	<h2>Lorem</h2>
+      </section>
+      
+      <section class="wrapper">
+
+	<section class="col2 noticias">
+	  <article>
+	    <h2>Lorem</h2>
+	    <p>Nisi est, sit amet facilisis magna etiam tempor, orci eu lobortis? Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum, odio eu feugiat pretium, nibh ipsum consequat nisl.</p>
+	  </article>
+	  <article>
+	    <h2>Lorem</h2>
+	    <p>Nisi est, sit amet facilisis magna etiam tempor, orci eu lobortis? Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum, odio eu feugiat pretium, nibh ipsum consequat nisl.</p>
+	  </article>
+	  <article>
+	    <h2>Lorem</h2>
+	    <p>Nisi est, sit amet facilisis magna etiam tempor, orci eu lobortis? Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum, odio eu feugiat pretium, nibh ipsum consequat nisl.</p>
+	  </article>
+	  <article>
+	    <h2>Lorem</h2>
+	    <p>Nisi est, sit amet facilisis magna etiam tempor, orci eu lobortis? Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum, odio eu feugiat pretium, nibh ipsum consequat nisl.</p>
+	  </article>
+	</section>
+	
+	<section class="col2 sobre">
+
+	  <h2>Sobre o evento</h2>
+	  <p>Commodo viverra maecenas accumsan, lacus vel facilisis volutpat, est velit egestas dui. Non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut.</p>
+	  <p>Commodo viverra maecenas accumsan, lacus vel facilisis volutpat, est velit egestas dui. Non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut.</p>
+	  <p>Commodo viverra maecenas accumsan, lacus vel facilisis volutpat, est velit egestas dui. Non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut.</p>
+	  
+	</section>
+      </section>
+      
+  </body>
+</html>
