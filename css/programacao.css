@@ -1,0 +1,80 @@
+body {
+    background-color: #fff;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+section {
+    overflow: scroll;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 2rem;
+    gap: 2rem;
+}
+
+section h1 {
+    font-family: "Forma Light";
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+p.info  {
+    font-size: 1.3rem;
+    margin-left: .5rem;
+}
+
+article .date {
+    letter-spacing: 2px;
+    font-family: "Forma";
+    font-size: 1.5rem;
+}
+
+article h2 {
+    font-family: "Forma Bold";
+    font-size: 3rem;
+}
+
+article h3{
+    color: #444;
+    font-family: "Forma Bold";
+    font-size: 2rem;
+}
+
+article p {
+    margin-top: .5rem;
+    font-family: "Forma Light";
+    font-size: 1.2rem;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    main {
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+    }
+
+    section {
+	width: 100%;
+    }
+}

@@ -3,36 +3,53 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
-    <link href="css/normalize.css" rel="stylesheet">
+    <title>X Seminário Internacional do INCT - INEAC</title>
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
+    <link href="images/favico.ico" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
+
+    <style>
+
+     @font-face {
+       font-family: "myFont";
+       src: url("myFont.woff2");
+     }
+
+     #home {
+       border-bottom: 2px solid white;
+     }
+    </style>
+    
   </head>
   <body>
-
-
-      <header>
-	<h1><a href="#">X Seminário Internacional</a></h1>
+    
+    <header>
+      <div class="container">
+	<h1 id="logo"><a href="#">X Seminário Internacional</a></h1>
 	<nav>
 	  <input type="checkbox" class="toggle-menu">
 	  <div class="hamburger"></div>
 	  
 	  <ul class="menu">
-	    <li><a href="#">Home</a></li>
-	    <li><a href="#">GTs</a></li>
-	    <li><a href="#">lancamentos de livro</a></li>
-	    <li><a href="#">Anais do Evento</a></li>
-	    <li><a href="#">Contato</a></li>
+	    <li><a id="home" href="#">Home</a></li>
+	    <li><a id="gts" href="#">GTs</a></li>
+	    <li><a id="gts" href="programacao.html">Programacao</a></li>
+	    <li><a id="livros" href="#">Lancamentos de Livro</a></li>
+	    <li><a id="anais" href="#">Anais do Evento</a></li>
+	    <li><a id="contato" href="#">Contato</a></li>
 	  </ul>
 	</nav>
-      </header>
+      </div>
+    </header>
 
-
+    
     <main>
-      <section class="image-container">
-	<img alt="" src="https://www.ram2023.sinteseeventos.com.br/resources/content/ram2023/banner_1680540661_5_4_banner_ram1.jpg">
-	<h2>Lorem</h2>
-      </section>
+      
+      <section class="image-container"></section>
       
       <section class="wrapper">
 
@@ -47,23 +64,27 @@
 	  </article>
 	  <article>
 	    <h2>Lorem</h2>
-	    <p>Nisi est, sit amet facilisis magna etiam tempor, orci eu lobortis? Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum, odio eu feugiat pretium, nibh ipsum consequat nisl.</p>
+	    <p>Nisi est, sit amet facilisis magna etiam tempor, orci eu lobortis? Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum, odio eu feugiat pretium, nibh ipsum consequat nisl. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia. Orci, ac auctor augue mauris augue neque, gravida in fermentum et, sollicitudin ac.</p>
 	  </article>
 	  <article>
 	    <h2>Lorem</h2>
 	    <p>Nisi est, sit amet facilisis magna etiam tempor, orci eu lobortis? Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum, odio eu feugiat pretium, nibh ipsum consequat nisl.</p>
+	    <p>
+	      Ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim, sit amet venenatis urna cursus. Sed elementum tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in est.
+	    </p>
 	  </article>
 	</section>
 	
 	<section class="col2 sobre">
 
 	  <h2>Sobre o evento</h2>
-	  <p>Commodo viverra maecenas accumsan, lacus vel facilisis volutpat, est velit egestas dui. Non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut.</p>
-	  <p>Commodo viverra maecenas accumsan, lacus vel facilisis volutpat, est velit egestas dui. Non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut.</p>
+	  <p>Commodo viverra maecenas accumsan, lacus vel facilisis volutpat, est velit egestas dui. Non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut.Commodo viverra maecenas accumsan, lacus vel facilisis volutpat, est velit egestas dui. Non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut.</p>
 	  <p>Commodo viverra maecenas accumsan, lacus vel facilisis volutpat, est velit egestas dui. Non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut.</p>
 	  
 	</section>
+      </div>
       </section>
+
     </main>
     
   </body>
