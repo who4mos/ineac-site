@@ -11,7 +11,7 @@ body {
 .image-container {
     background-image: url("/ineac-site/images/background.jpg");
     background-size: cover;
-    height: 30vh;
+    height: 50vh;
     box-shadow: 0px -1px 3px 0px rgba(50,50,50,0.75) inset;
 }
 
@@ -34,20 +34,22 @@ body {
     padding: 0 2rem 2rem;
     display: flex;
     flex-direction: column;
-    column-gap: 20px;
-
 }
 
 .col2 h2 {
     font-family: "Forma Bold";
     font-size: 3rem;
-    margin: 2rem 0 1rem;
+    margin: 2rem 0 .2rem;
 }
 
 .col2 p {
     font-family: "Forma";
     font-size: 1.3rem;
     line-height: 1.2;
+}
+
+.data {
+    margin-bottom: 1rem;
 }
 
 .info {
