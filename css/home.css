@@ -31,10 +31,11 @@ body {
 
 .col2 {
     width: 50%;
-    padding: 0 2rem;
+    padding: 0 2rem 2rem;
     display: flex;
     flex-direction: column;
     column-gap: 20px;
+
 }
 
 .col2 h2 {
@@ -45,8 +46,18 @@ body {
 
 .col2 p {
     font-family: "Forma";
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.2;
+}
+
+.info {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    height: 3rem;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 800px) {

@@ -1,0 +1,85 @@
+header {
+    background-color: #6F88BE;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 5rem;
+    gap: 1rem;
+    height: 100vh;
+}
+
+section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 2rem;
+    padding-top: 10rem;
+}  
+
+section.infos {
+    text-align: right;
+}
+
+address {
+    
+    font-family: "Forma";
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #6F88BE;
+}
+
+h2 {
+    font-family: "Forma Bold";
+    font-size: 3rem;
+    color: #6F88BE;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+}
+
+label {
+    font-family: "Forma Bold";
+    font-size: 3rem;
+    color: #6F88BE;
+}
+
+input {
+  outline: 0;
+  color: #6F88BE;
+  border-width: 0 0 2px;
+  border-color: #6F88BE;
+  background-color: transparent;
+}
+
+input:focus {
+  border-color: black;
+  outline: 1px dotted #000;
+}
+
+textarea {
+  outline: 0;
+  border-width: 0 0 2px;
+  color: #6F88BE;
+  border-color: #6F88BE;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: "Forma Medium";
+    font-size: 2rem;
+    color: #6F88BE;
+}
+
+button:hover {
+    color: #ff73f3;
+}
