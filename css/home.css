@@ -29,6 +29,10 @@ body {
     color: #ffffff;
 }
 
+.sobre p {
+    margin-top: 1rem;
+}
+
 .col2 {
     width: 50%;
     padding: 0 2rem 2rem;
