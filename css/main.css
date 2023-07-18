@@ -70,13 +70,6 @@ header img {
     background-image: url("/ineac-site/images/logo-branca.png");
 }
 
-header h1 {
-    font-family: niagara, serif;
-    font-size: 1.5rem;
-    color: white;
-    width: 30%;
-} 
-
 .menu {
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
