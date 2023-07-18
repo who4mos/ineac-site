@@ -4,7 +4,7 @@ main {
 }
 
 body {
-    background-color: #ccc;
+ background: linear-gradient(to right, #ffffff 50%, #6F88BE 0%);
 }
 
 /* IMAGE SECTION */
@@ -25,7 +25,7 @@ body {
 }
 
 .sobre {
-    background-color: #0c53cb;
+    background-color: #6F88BE;
     color: #ffffff;
 }
 

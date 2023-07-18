@@ -1,3 +1,7 @@
+header {
+    background-color: #6F88BE;
+}
+
 body {
     background-color: #fff;
 }
@@ -16,7 +20,7 @@ section {
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 1rem 0 2rem;
+    padding: 1rem 1rem 2rem;
     gap: 2rem;
 }
 
@@ -24,6 +28,7 @@ section h1 {
     font-family: "Forma Light";
     font-size: 4rem;
     letter-spacing: 3px;
+    color: #6F88BE;
 }
 
 .wrap {
@@ -46,17 +51,19 @@ article .date {
 article h2 {
     font-family: "Forma Bold";
     font-size: 3rem;
+    color: #6F88BE;
 }
 
 article h3{
-    color: #444;
+    color: #6F88BE;
     font-family: "Forma Bold";
     font-size: 2rem;
 }
 
 article p {
+    color: #6F88BE;
     margin-top: .5rem;
-    font-family: "Forma Light";
+    font-family: "Forma";
     font-size: 1.2rem;
 }
 
@@ -66,7 +73,26 @@ article p {
     gap: 1rem;
 }
 
-@media screen and (max-width: 800px) {
+/* GTs */
+#secao-gts a:link, #secao-gts a:visited {
+    font-family: "Forma Medium";
+    color: inherit;
+    text-decoration: none;
+}
+
+#secao-gts a:hover {
+    color: #ff73f3;
+}
+
+/* #secao-gts p.info { */
+/*     letter-spacing: 2px; */
+/*     font-size: 1.5rem; */
+/*     margin-left: unset; */
+}
+
+
+@media screen and (max-width: 950px) {
+
     main {
 	width: 100%;
 	flex-direction: column;
@@ -75,6 +101,8 @@ article p {
     }
 
     section {
+	overflow: auto;
 	width: 100%;
+	padding: 1rem 1rem 2rem;
     }
 }

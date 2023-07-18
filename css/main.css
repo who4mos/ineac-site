@@ -13,6 +13,11 @@
     src: url("fonts/FormaDJRDisplay-Bold-Testing.ttf");
 }
 
+@font-face {
+    font-family: "Forma Medium";
+    src: url("fonts/FormaDJRDisplay-Medium-Testing.ttf");
+}
+
 html {
     box-sizing: border-box;
 }
@@ -32,6 +37,7 @@ header {
     width: 100%;
     top: 0;
     height: 5rem;
+
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
@@ -40,10 +46,28 @@ header {
 .container {
     max-width: 1100px;
     width: 100%;
+    height: inherit;
     margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+header img {
+    max-height: 100%;
+    max-width: 80%;
+    background: none;
+}
+
+#logo-container {
+    background-image: url("/images/logo-rosa.png");
+    background-size: cover;
+    height: 5rem;
+    width: 20rem;
+}
+
+#logo-container:hover {
+    background-image: url("/images/logo-branca.png");
 }
 
 header h1 {
@@ -70,10 +94,14 @@ header a:link, header a:visited {
     text-decoration: none;
 }
 
-header a:hover, header a:focus {
-    border-bottom: 2px solid white;
+nav a:hover{
+    color: #ff73f3;
+    border-bottom: 2px solid #ff73f3;
 }
 
+.selected-link {
+    border-bottom: 2px solid white;
+}
 
 /* HAMBURGER */
 
@@ -143,7 +171,7 @@ nav input:checked ~ .menu {
     right: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
 
     .hamburger,
     .toggle-menu {
