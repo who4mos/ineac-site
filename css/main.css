@@ -33,14 +33,10 @@ html {
 header {
     display: flex;
     z-index: 1;
-    position: fixed;
     width: 100%;
     top: 0;
     height: 5rem;
-
-    background-color: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
+    background-color: #6F88BE;
 }
 
 .container {
