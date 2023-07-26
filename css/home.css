@@ -26,13 +26,13 @@ body {
     background-color: #ffffff;
 }
 
+.noticias article h2 {
+    margin-top: 1rem;
+}
+
 .sobre {
     background-color: #6F88BE;
     color: #ffffff;
-}
-
-.sobre p {
-    margin-top: 1rem;
 }
 
 .col2 {
@@ -49,6 +49,7 @@ body {
 }
 
 .col2 p {
+    margin-top: 1rem;
     font-family: "Forma";
     font-size: 1.3rem;
     line-height: 1.2;

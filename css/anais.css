@@ -1,5 +1,6 @@
 header {
     background-color: #6F88BE;
+
 }
 
 body {
@@ -11,8 +12,7 @@ main {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    height: 100vh;
-    padding-top: 5rem;
+    height: calc(100vh - 5rem);
 }
 
 section {
@@ -60,6 +60,26 @@ details article:first-of-type {
     margin-top: .5rem;
 }
 
+article ul {
+    margin-top: 1rem;
+}
+
+article ul li a::after {
+    content: " \1F517";
+}
+
+article ul li a:link, article ul li a:visited {
+    text-decoration: none;
+    color: #6F88BE;
+    font-family: "Forma";
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+article ul li a:hover {
+    color: #FF73F3;
+}
+
 article p {
     color: #6F88BE;
     margin-top: .5rem;
@@ -80,4 +100,8 @@ p.bold a:link, p.bold a:visited {
 
 p.bold  a:hover {
     color: #ff73f3;
+}
+
+p.bold a::after {
+    content: " \1F517";
 }
