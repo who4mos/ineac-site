@@ -71,6 +71,7 @@ body {
 @media screen and (max-width: 800px) {
     .image-container {
 	background-image: url("/ineac-site/images/background-less.png");
+	height: 300px;
     }
     
     .wrapper {
